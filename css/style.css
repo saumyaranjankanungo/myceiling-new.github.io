@@ -391,6 +391,44 @@ h3 {
     outline: none
 }
 
+
+/*  */
+
+.boxed-btn4 {
+    background: #25D366;
+    color: #ffffff;
+    display: inline-block;
+    padding: 19px 50px;
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+    letter-spacing: 2px
+}
+
+.boxed-btn4:hover {
+    background: #21a752;
+    color: #fff!important
+}
+
+.boxed-btn4:focus {
+    outline: none
+}
+
+
+/*  */
+
 .boxed-btn3.large-width {
     width: 220px
 }
@@ -1241,6 +1279,12 @@ h3 {
     margin-bottom: 51px
 }
 
+.slider_text .color-text {
+    background: -webkit-linear-gradient( #008cff, #63d5f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .slider_area .single_slider.single_slider2 .property_wrap .property_form {
     background: #001d38
 }
@@ -2085,23 +2129,23 @@ h3 {
 }
 
 .prise_area .col-xl-4:nth-child(1) .single_prise:before {
-    background-image: url('../img/prise/3D-ceiling.jpg')
+    background-image: url('../img/prise/Myceiling-3d-ceiling.jpg')
 }
 
 .prise_area .col-xl-4:nth-child(3) .single_prise:before {
-    background-image: url('../img/prise/constellation.jpg')
+    background-image: url('../img/prise/Myceiling-constellation.jpg')
 }
 
 .prise_area .col-xl-4:nth-child(4) .single_prise:before {
-    background-image: url('../img/prise/Digital.jpg')
+    background-image: url('../img/prise/Myceiling-digital.jpg')
 }
 
 .prise_area .col-xl-4:nth-child(5) .single_prise:before {
-    background-image: url('../img/prise/moonstone.jpg')
+    background-image: url('../img/prise/Myceiling-moonstone.jpg')
 }
 
 .prise_area .col-xl-4:nth-child(6) .single_prise:before {
-    background-image: url('../img/prise/opal.jpg')
+    background-image: url('../img/prise/Myceiling-opal.jpg')
 }
 
 .prise_area .single_prise {
@@ -2207,7 +2251,7 @@ h3 {
 }
 
 .prise_area .single_prise:before {
-    background-image: url('../img/prise/fanpro.jpg');
+    background-image: url('../img/prise/Myceiling-fanpro.jpg');
     left: 0;
     top: 0;
     width: 100%;
