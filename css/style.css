@@ -577,7 +577,7 @@ h3 {
 }
 
 .section_title h3 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 500;
     color: #001d38;
     position: relative;
@@ -896,7 +896,7 @@ h3 {
 
 .header-area .main-header-area .say_hello a::before {
     position: absolute;
-    background: #ffe8c3;
+    background: #166aa1;
     width: 100%;
     height: 3px;
     left: 0;
@@ -1234,11 +1234,11 @@ h3 {
 }
 
 .slider_bg_1 {
-    background-image: url('../img/banner/banner-main.jpg')
+    background-image: url('../img/banner-main.jpg')
 }
 
 .slider_bg_2 {
-    background-image: url('../img/banner/banner-main.jpg')
+    background-image: url('../img/banner-main.jpg')
 }
 
 .slider_area {
@@ -1247,7 +1247,7 @@ h3 {
 }
 
 .slider_area .single_slider {
-    height: 1200px;
+    height: 1100px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center
@@ -2195,7 +2195,7 @@ h3 {
 .prise_area .single_prise .prise_header h5::before {
     height: 3px;
     width: 32px;
-    background: #ffd35a;
+    background: #166aa1;
     position: absolute;
     left: 0;
     top: 50%;
@@ -3459,8 +3459,8 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 }
 
 .instagram_area {
-    /* padding-top: 180px; */
-    padding-bottom: 150px
+    padding-top: 80px;
+    padding-bottom: 80px
 }
 
 @media(max-width:767px) {
@@ -3825,8 +3825,8 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 .works_area {
     position: relative;
-    padding-top: 180px;
-    padding-bottom: 100px
+    padding-top: 150px;
+    padding-bottom: 40px
 }
 
 @media(max-width:767px) {
@@ -3865,6 +3865,11 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
     font-size: 30px;
     font-weight: 500;
     color: #001d38
+}
+
+.works_area .work_info .work_p {
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
 }
 
 .works_area .work_info p {
@@ -4752,7 +4757,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
     color: #fff
 }
 
-.bradcam_bg_1 {
+/* .bradcam_bg_1 {
     background-image: url(../img/banner/bradcam.png)
 }
 
@@ -4766,7 +4771,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus {
 
 .bradcam_bg_4 {
     background-image: url(../img/banner/details.png)
-}
+} */
 
 .bradcam_area {
     background-size: cover;
