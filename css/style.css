@@ -2065,8 +2065,31 @@ h3 {
 }
 
 @media(max-width:767px) {
+    .slider_area .single_slider .slider_text h3{
+        margin-bottom: 1px;
+    }
     .Information_area {
         padding: 100px 0
+    }
+    .testimonial_area .owl-carousel .owl-item img {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media(max-width:650px){
+    .boxed-btn4{
+        padding: 10px;
+    }
+}
+
+@media(max-width: 992px) {
+    .slider_area .slider_text {
+        margin-top: 200px;
+    }
+    .testimonial_area .owl-carousel .owl-item img {
+        display: inline-block;
+        width: 100%;
     }
 }
 
